@@ -1,0 +1,35 @@
+def applicationConstructor (applicationText):
+    def applicationTemplate():
+        return "Директору ТзОВ “Роги і Копита“\n Скоробагатьку П. С. \n Заява"
+    return applicationTemplate() + applicationText
+
+def vacationText() :
+    return "\n Прошу надати мені відпустку на 100 років"
+
+def emergencyText() :
+    return "\n Прошу надати мені лікарняний на 1 день"
+
+def quitText() :
+    return "\n Прошу звільнити мене сьогоднішним числом"
+
+def vacation() :
+    return applicationConstructor(vacationText())
+
+def emergency() :
+    return applicationConstructor(emergencyText())
+
+def quit() :
+    return applicationConstructor(quitText())
+
+def application():
+    choice = input("Вас вітає програма формування заяви."
+          " \n Якщо ви бажаєте сформувати заяву на відпустку натсиніть 1"
+          "\n Якщо ви бажаєте сформувати заяву про лікарняний натсиніть 2"
+          "\n Якщо ви бажаєте сформувати заяву на звільнення натсиніть 3"
+          "\n Зробіть ваш вибір: ")
+    if choice == "1": print(vacation())
+    elif choice == "2": print(emergency())
+    elif choice == "3": print(quit())
+    else : print("There are no such option :" + choice)
+
+application()
