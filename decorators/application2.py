@@ -1,5 +1,5 @@
 def application_template(application_text):
-    return "Директору ТзОВ “Роги і Копита“\n Скоробагатьку П. С. \n Заява \n{0}".format(application_text)
+    return "Директору ТзОВ “Роги і Копита“\nСкоробагатьку П. С.\n Заява\n{0}".format(application_text)
 
 
 def application_constructor(func):
