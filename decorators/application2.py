@@ -4,7 +4,7 @@ def application_template(application_text):
 
 def application_constructor(func):
     def app_wrapper(application_text):
-        return "[Start \n{0} \nEnd]".format(func(application_text))
+        return func(application_text)
 
     return app_wrapper
 
@@ -34,7 +34,7 @@ def fire(application_text):
     return fire_app(application_text)
 
 
-def application():
+def main():
     choice = input("Вас вітає програма формування заяви."
                    " \n Якщо ви бажаєте сформувати заяву на відпустку натсиніть 1"
                    "\n Якщо ви бажаєте сформувати заяву про лікарняний натсиніть 2"
@@ -48,8 +48,8 @@ def application():
         print(fire(quit_text))
     else:
         print("There are no such option :" + choice)
-        return application()
+        return main()
 
 
-if __name__ == "__application__":
-    application()
+if __name__ == "__main__":
+    main()
