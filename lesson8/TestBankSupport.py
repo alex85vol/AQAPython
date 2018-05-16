@@ -1,8 +1,8 @@
 import unittest
 
-from BankSupport import BankSupport
-from CardsKinds import CardsKinds
-from Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
+from lesson8.BankSupport import BankSupport
+from lesson8.CardsKinds import CardsKinds
+from lesson8.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
 
 
 class MyTestSuite(unittest.TestCase):

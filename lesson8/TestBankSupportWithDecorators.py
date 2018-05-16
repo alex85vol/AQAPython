@@ -1,9 +1,9 @@
 import unittest
 from functools import wraps
 
-from BankSupport import BankSupport
-from CardsKinds import CardsKinds
-from Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
+from lesson8.BankSupport import BankSupport
+from lesson8.CardsKinds import CardsKinds
+from lesson8.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
 
 
 def test_with_card(card_type):
@@ -11,17 +11,25 @@ def test_with_card(card_type):
         @wraps(func)
         def decorated(self, *args, **kwargs):
             res = func(self, *args, **kwargs).card_kind
-            self.assertEqual(res, card_type, "Incorrect type of card has been returned: {}. Should be {}".format(res, card_type))
+            self.assertEqual(res, card_type,
+                             "Incorrect type of card has been returned: {}. Should be {}".format(res, card_type))
+
         return decorated
+
     return test_decorator
+
 
 def expect_exception(exception):
     """Marks test to expect the specified exception. Call assertRaises internally"""
+
     def test_decorator(fn):
         def test_decorated(self, *args, **kwargs):
             self.assertRaises(exception, fn, self, *args, **kwargs)
+
         return test_decorated
+
     return test_decorator
+
 
 class MyTestSuite(unittest.TestCase):
     @classmethod
