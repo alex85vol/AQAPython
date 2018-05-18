@@ -1,0 +1,4 @@
+{
+  "test_pytest_class.py::TestFirst::()::test_2": true,
+  "test_pytest_functional.py::test_2": true
+}
