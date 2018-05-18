@@ -1,9 +1,9 @@
 import unittest
 from functools import wraps
 
-from lesson9_plus.bank_support.BankSupport import BankSupport
-from lesson9_plus.bank_support.CardsKinds import CardsKinds
-from lesson9_plus.bank_support.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
+from bank_support.BankSupport import BankSupport
+from bank_support.CardsKinds import CardsKinds
+from bank_support.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
 
 
 def test_with_card(card_type):

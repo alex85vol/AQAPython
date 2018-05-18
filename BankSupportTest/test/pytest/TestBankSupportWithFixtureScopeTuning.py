@@ -1,14 +1,16 @@
 import pytest
 
-from lesson9_plus.bank_support.BankSupport import BankSupport
-from lesson9_plus.bank_support.CardsKinds import CardsKinds
-from lesson9_plus.bank_support.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
+from bank_support.BankSupport import BankSupport
+from bank_support.CardsKinds import CardsKinds
+from bank_support.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
 
+#pytest -v --setup-show --debug test/pytest/TestBankSupportWithFixtureScopeTuning.py
 
-@pytest.fixture
+@pytest.fixture(scope="function")
 def check_exception():
     def checker(function, exception: Exception, *args):
         try:
+            print("Checking for exception {} for function {}".format(exception, function.__name__))
             function(*args)
         except exception:
             return True
@@ -17,12 +19,14 @@ def check_exception():
         return False
     return checker
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def account_provider():
+    print("Providing Banking Account {}".format(BankSupport))
     return BankSupport
 
-@pytest.fixture
+@pytest.fixture(scope="module")
 def card_provider():
+    print("Providing Card types enumeration")
     return CardsKinds
 
 def test_no_card(account_provider, card_provider):
@@ -47,6 +51,3 @@ def test_negative_debet(account_provider, check_exception):
 
 def test_take_more_then(account_provider, check_exception):
     assert check_exception(account_provider(100).take_founds, TakeMoneyUnavailabilityError, 101), "Exception TakeMoneyUnavailabilityError hasn't been raised when taken funds more then money is on the debet"
-
-
-

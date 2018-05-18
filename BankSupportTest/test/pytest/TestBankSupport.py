@@ -1,17 +1,14 @@
 import pytest
 
-from lesson9_plus.bank_support.BankSupport import BankSupport
-from lesson9_plus.bank_support.CardsKinds import CardsKinds
-from lesson9_plus.bank_support.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
+from bank_support.BankSupport import BankSupport
+from bank_support.CardsKinds import CardsKinds
+from bank_support.Exceptions import IncorrectDebetError, TakeMoneyUnavailabilityError
 
 
-# pytest -v --setup-show --debug test/pytest/TestBankSupportWithFixtureScopeTuning.py
-
-@pytest.fixture(scope="function")
+@pytest.fixture
 def check_exception():
     def checker(function, exception: Exception, *args):
         try:
-            print("Checking for exception {} for function {}".format(exception, function.__name__))
             function(*args)
         except exception:
             return True
@@ -22,15 +19,13 @@ def check_exception():
     return checker
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture
 def account_provider():
-    print("Providing Banking Account {}".format(BankSupport))
     return BankSupport
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture
 def card_provider():
-    print("Providing Card types enumeration")
     return CardsKinds
 
 
