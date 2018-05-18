@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="206fc96b-4a12-4ccc-8eeb-3aa86a7606bb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/home_work/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_work/test_faculty_students.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_work/test_university_faculty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/pytets_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson8/BankSupport.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/BankSupport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/TestBankSupport.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/TestBankSupport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/TestBankSupportWithDataProviders.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/TestBankSupportWithDataProviders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/TestBankSupportWithDecorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/TestBankSupportWithDecorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/Exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/Exceptions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,74 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BankSupport.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/BankSupport.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBankSupportWithDecorators.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupportWithDecorators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="66" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBankSupportWithDataProviders.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupportWithDataProviders.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="60" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/setup.py">
+        <entry file="file://$PROJECT_DIR$/home_work/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="198">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardsKinds.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/CardsKinds.py">
+      <file leaf-file-name="test_faculty_students.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_work/test_faculty_students.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exceptions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/Exceptions.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TestBankSupport.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupport.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="49" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="1144">
+              <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_university_faculty.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home_work/test_university_faculty.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pytets_start.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson9/pytets_start.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -147,11 +119,15 @@
         <option value="$PROJECT_DIR$/home_work/university.py" />
         <option value="$PROJECT_DIR$/home_work/student.py" />
         <option value="$PROJECT_DIR$/lesson8/CardsKinds.py" />
-        <option value="$PROJECT_DIR$/lesson8/Exceptions.py" />
-        <option value="$PROJECT_DIR$/lesson8/BankSupport.py" />
-        <option value="$PROJECT_DIR$/lesson8/TestBankSupport.py" />
         <option value="$PROJECT_DIR$/lesson8/TestBankSupportWithDataProviders.py" />
         <option value="$PROJECT_DIR$/lesson8/TestBankSupportWithDecorators.py" />
+        <option value="$PROJECT_DIR$/lesson8/BankSupport.py" />
+        <option value="$PROJECT_DIR$/lesson8/TestBankSupport.py" />
+        <option value="$PROJECT_DIR$/lesson8/Exceptions.py" />
+        <option value="$PROJECT_DIR$/home_work/setup.py" />
+        <option value="$PROJECT_DIR$/home_work/test_faculty_students.py" />
+        <option value="$PROJECT_DIR$/home_work/test_university_faculty.py" />
+        <option value="$PROJECT_DIR$/lesson9/pytets_start.py" />
       </list>
     </option>
   </component>
@@ -166,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,22 +152,18 @@
             <path>
               <item name="AQAPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="AQAPython" type="462c0819:PsiDirectoryNode" />
-              <item name="home_work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AQAPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AQAPython" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in TestBankSupportWithDecorators.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_faculty_students.py">
     <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AQAPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,24 +191,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson8/setup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="university" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AQAPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/home_work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home_work/university.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,20 +235,33 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson8/TestBankSupport.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in test_faculty_students.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="AQAPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/home_work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/home_work/test_faculty_students.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
-      <item itemvalue="Python.university" />
       <item itemvalue="Python.setup" />
       <item itemvalue="Python tests.Unittests in TestBankSupportWithDataProviders.py" />
       <item itemvalue="Python tests.Unittests in TestBankSupportWithDecorators.py" />
       <item itemvalue="Python tests.Unittests in TestBankSupport.py" />
+      <item itemvalue="Python tests.Unittests in test_faculty_students.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_faculty_students.py" />
+        <item itemvalue="Python tests.Unittests in TestBankSupport.py" />
         <item itemvalue="Python tests.Unittests in TestBankSupportWithDecorators.py" />
         <item itemvalue="Python tests.Unittests in TestBankSupportWithDataProviders.py" />
-        <item itemvalue="Python tests.Unittests in TestBankSupport.py" />
         <item itemvalue="Python.setup" />
-        <item itemvalue="Python.university" />
       </list>
     </recent_temporary>
   </component>
@@ -313,26 +279,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_TestBankSupportWithDataProviders_py - 2018.05.16 at 20h 06m 48s.xml">
-      <configuration name="Unittests in TestBankSupportWithDataProviders.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 17h 19m 59s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestBankSupportWithDecorators_py - 2018.05.16 at 20h 10m 14s.xml">
-      <configuration name="Unittests in TestBankSupportWithDecorators.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 19h 20m 30s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestBankSupportWithDataProviders_py - 2018.05.16 at 20h 10m 31s.xml">
-      <configuration name="Unittests in TestBankSupportWithDataProviders.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 19h 22m 26s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestBankSupport_py - 2018.05.16 at 20h 10m 54s.xml">
-      <configuration name="Unittests in TestBankSupport.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 19h 22m 56s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestBankSupport_py - 2018.05.16 at 20h 11m 45s.xml">
-      <configuration name="Unittests in TestBankSupport.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 19h 23m 28s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestBankSupportWithDataProviders_py - 2018.05.16 at 20h 12m 22s.xml">
-      <configuration name="Unittests in TestBankSupportWithDataProviders.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 19h 24m 24s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestBankSupportWithDecorators_py - 2018.05.16 at 20h 12m 55s.xml">
-      <configuration name="Unittests in TestBankSupportWithDecorators.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 19h 24m 51s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.17 at 19h 25m 17s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.18 at 19h 54m 58s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_faculty_students_py - 2018.05.18 at 19h 56m 41s.xml">
+      <configuration name="Unittests in test_faculty_students.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -346,16 +321,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1440846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14342366" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033045" side_tool="true" weight="0.5198822" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" visible="true" weight="0.5198822" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" weight="0.51840943" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32842416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32842416" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32842416" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,6 +340,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1440846" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" weight="0.5198822" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32842416" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033045" side_tool="true" weight="0.5198822" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32842416" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -383,6 +376,30 @@
           <line>93</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson8/TestBankSupport.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson8/TestBankSupport.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson8/TestBankSupport.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson8/TestBankSupport.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson8/Exceptions.py</url>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -391,7 +408,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -414,41 +431,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson3/work_with_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/work_with_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/application2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorators/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decorators/application2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -687,15 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_work/student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home_work/faculty.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -707,30 +680,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="761">
           <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8/setup.py">
+    <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupportWithDataProviders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="80">
+          <caret line="60" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8/BankSupport.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8/Exceptions.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupportWithDecorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="66" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson8/CardsKinds.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -739,35 +711,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="704" column="8" selection-start-line="704" selection-start-column="8" selection-end-line="704" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson8/Exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson8/BankSupport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson8/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_work/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="49" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="528">
+          <caret line="49" column="45" selection-start-line="48" selection-start-column="8" selection-end-line="49" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupportWithDataProviders.py">
+    <entry file="file://$PROJECT_DIR$/home_work/test_faculty_students.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="60" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        <state relative-caret-position="1144">
+          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8/TestBankSupportWithDecorators.py">
+    <entry file="file://$PROJECT_DIR$/home_work/test_university_faculty.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="66" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        <state relative-caret-position="308">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson9/pytets_start.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

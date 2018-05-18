@@ -16,9 +16,9 @@ class BankSupport(object):
                 "Bank account #{}. Debet is under zero: {}".format(str(self.account_id), str(self.account_debet)))
         elif self.account_debet == 0.0:
             return CardsKinds.NO_CARD
-        elif 0.0 < self.account_debet <= 9000.0:
+        elif 0.0 < self.account_debet <= 10000.0:
             return CardsKinds.NORMAL_CARD
-        elif 10000.0 < self.account_debet <= 99999.0:
+        elif 10000.0 < self.account_debet <= 100000.0:
             return CardsKinds.GOLD_CARD
         return CardsKinds.PLATINUM_CARD
 
