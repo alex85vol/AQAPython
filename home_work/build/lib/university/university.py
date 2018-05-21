@@ -1,7 +1,7 @@
 from functools import reduce
 
-from home_work.faculty import Faculty
-from home_work.student import Student
+from home_work.university.faculty import Faculty
+from home_work.university.student import Student
 
 
 class University(object):

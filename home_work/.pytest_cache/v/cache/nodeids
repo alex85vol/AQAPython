@@ -1,0 +1,5 @@
+[
+  "test/pytest/test_faculties.py::test_add_faculty",
+  "test/pytest/test_faculties.py::test_delete_faculty",
+  "test/pytest/test_faculties.py::test_delete_faculty_negative"
+]

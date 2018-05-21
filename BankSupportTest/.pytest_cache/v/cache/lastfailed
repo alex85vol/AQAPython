@@ -1,3 +1,5 @@
 {
-  "test/pytest/TestBankSupport.py::test_negative_debet": true
+  "test/pytest/TestBankSupport.py::test_negative_debet": true,
+  "test/pytest/TestBankSupportWithAutouseConfig.py::test_negative_debet": true,
+  "test/pytest/TestBankSupportWithFixtureScopeTuning.py::test_negative_debet": true
 }

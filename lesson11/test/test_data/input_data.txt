@@ -1,0 +1,4 @@
+0, No Card
+1, Normal Card
+10001, Gold Card
+100010, Platinum Card

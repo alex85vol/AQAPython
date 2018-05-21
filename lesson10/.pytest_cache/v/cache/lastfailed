@@ -1,0 +1,5 @@
+{
+  "test/pytest/TestBankSupport.py::test_negative_debet": true,
+  "test/pytest/TestBankSupportPyUnit.py::MyTestSuite::test_negative_debet": true,
+  "test/pytest/TestBankSupportWithParameters.py::test_negative_debet[BankSupport--10-IncorrectDebetError]": true
+}

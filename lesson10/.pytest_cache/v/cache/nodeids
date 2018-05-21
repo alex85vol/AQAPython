@@ -1,0 +1,8 @@
+[
+  "test/pytest/TestBankSupportPyUnit.py::MyTestSuite::test_gold_card",
+  "test/pytest/TestBankSupportPyUnit.py::MyTestSuite::test_negative_debet",
+  "test/pytest/TestBankSupportPyUnit.py::MyTestSuite::test_no_card",
+  "test/pytest/TestBankSupportPyUnit.py::MyTestSuite::test_normal_card",
+  "test/pytest/TestBankSupportPyUnit.py::MyTestSuite::test_platinum",
+  "test/pytest/TestBankSupportPyUnit.py::MyTestSuite::test_take_more_then"
+]
